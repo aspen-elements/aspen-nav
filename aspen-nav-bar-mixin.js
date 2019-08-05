@@ -3,7 +3,7 @@
  * @polymerMixin
  * @mixinFunction
  */
-const AspenNavBarMixin = superclass =>
+export const AspenNavBarMixin = superclass =>
   class extends superclass {
     static get properties() {
       return {
